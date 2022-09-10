@@ -52,10 +52,14 @@ h1 {
 }
 
 .form-box .error-text {
+	visibility: hidden;
 	margin: 5px 0 0 10px;
 	font-size: 14px;
 	color: rgb(250, 0, 54);
-	visibility: hidden;
+}
+
+.form-box.error .error-text {
+	visibility: visible;
 }
 
 .control-buttons {
